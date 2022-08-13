@@ -9,7 +9,7 @@ fetch('https://unpkg.com/us-atlas/states-10m.json').then((r) => r.json()).then((
       datasets: [{
         label: 'States',
         outline: nation,
-        data: states.map((d) => ({feature: d, value: Math.random() * 10})),
+        data: states.map((d) => ({feature: d, value: Math.random() * 100})),
       }]
     },
     options: {
