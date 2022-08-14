@@ -41,7 +41,7 @@ console.log("hello");
             const data = await getData();
             const ctx = document.getElementById('chart').getContext('2d');
             const myChart = new Chart(ctx, {
-                type: 'pie',
+                type: 'bar',
 
                 data: {
                     labels: data.label,
