@@ -27,3 +27,6 @@ h1{
   position: relative;
   overflow: hidden;
 }
+.introbtn{
+  object-position: center;
+}
