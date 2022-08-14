@@ -49,9 +49,7 @@ console.log("hello");
                             label: 'Monkeypox Cases by Location',
                             data: data.ycount,
                             backgroundColor: [
-                            'rgb(69, 123, 157)',
-                            'rgb(168, 218, 220)',
-                            'rgb(29, 53, 87)'
+                            'rgb(69, 123, 157)', 
                             ],
                             hoverOffset: 4
                         }]
