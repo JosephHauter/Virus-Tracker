@@ -21,6 +21,7 @@ If we had more time, we would like to utilize APIs in order to provide even more
 We become more comfortable with using Bootstrap formats, along with extracting data from csv files to be displayed on a graph using chart.js. We definitely got better at researching on topics that we are unfamiliar with which we all felt is a really important skills. Lastly, we learned how to use GitHub to collaborate with each other and became more familiar with some git terminal commands along with approving each other's pull requests and looking over each other's code to ensure that we are all on the same page. 
 
 #Accomplishments🏆:
+
 • Utilize Chart.js to make a bar graph that included the recent monkeypox and covid-19 cases
 
 • Included many interesting Bootstrap Framework
