@@ -36,13 +36,13 @@ fetch('https://unpkg.com/us-atlas/states-10m.json').then((r) => r.json()).then((
 console.log("hello");
 
         chartIt();
-     
+
         async function chartIt() {
             const data = await getData();
             const ctx = document.getElementById('chart').getContext('2d');
             const myChart = new Chart(ctx, {
                 type: 'pie',
-                
+
                 data: {
                     labels: data.label,
                         datasets: [{
@@ -54,9 +54,9 @@ console.log("hello");
                             'rgb(29, 53, 87)'
                             ],
                             hoverOffset: 4
-                        }]  
+                        }]
                 },
-                
+
             });
         }
 
@@ -68,7 +68,7 @@ console.log("hello");
                 const ycount = [];
                 const response = await fetch('monkeypox.csv');
                 const data = await response.text();
-            
+
 
             const rows = data.split('\n').slice(1);
             rows.forEach(elt => {
