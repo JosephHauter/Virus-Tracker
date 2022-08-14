@@ -22,11 +22,17 @@ We become more comfortable with using Bootstrap formats, along with extracting d
 
 #Accomplishments🏆:
 • Utilize Chart.js to make a bar graph that included the recent monkeypox and covid-19 cases
+
 • Included many interesting Bootstrap Framework
+
 • Grew accustomed to how each team members work and quickly familiarized ourselves with what our strengths and weaknesses are 
+
 • Converted CSV and JSON data
+
 • Used embed code to display on site
+
 • Joined our first hackathon
+
 • Completed our project to our satisfaction
 
 
