@@ -2,7 +2,7 @@
 
 #Description💡:
 
-Due to the recent surges in monkeypox cases, in order to make the process of spreading information more efficiently, we decided to create a website that allows for users to track the recent covid and monkeypox notices. When the user visits the website, they will be able to view the choropleth map, data tables, harts, and recent news regarding the topic of monkeypox and covid-19
+Due to the recent surges in monkeypox cases, in order to make the process of spreading information more efficient, we decided to create a website that allows for users to track the recent covid and monkeypox notices. When the user visits the website, they will be able to view the choropleth map, data tables, harts, and recent news regarding the topic of monkeypox and covid-19
 
 #Languages & Packages/Library/Database/Frameworks used 👷‍♂️:
 
