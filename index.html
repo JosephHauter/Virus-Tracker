@@ -8,17 +8,11 @@
     <script src = "https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
   </head>
 
-<!--<canvas id = "chart" width="100" height="100"></canvas>-->
 
 <body>
   <ul class="nav nav-tabs">
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.html" role="button" aria-expanded="false">Home</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Monkey Pox Choropleth Map</a></li>
-        <li><a class="dropdown-item" href="#">Monkey Pox: Daily Confirmed Cases</a></li>
-        <li><a class="dropdown-item" href="#">How to Avoid Monkey Pox</a></li>
-      </ul>
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="idk.html">News</a>
@@ -30,13 +24,14 @@
       <a class="nav-link" href="about.html">About</a>
     </li>
   </ul>
-    
+
   <rssapp-ticker id="0xMmYwxZJHu6EvEx"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
-  
+
   <div class="chartCard">
     <div class="chartBox2">
-  <center><h1 class="display-1">Monkey Pox Choropleth Map</h1></center>
+  <center><h1 class="display-1">Monkey Pox</h1></center>
   <canvas id="canvas"></canvas> <!--map-->
+  <h2>Choropleth Map</h2>
   <br><br><br><br>
   </div>
   </div>
@@ -47,13 +42,15 @@
     <!--daily confirmed cases title box-->
     </div>
     </div>
+    <canvas id = "chart" width="50%"></canvas>
+
 
     <div class="chartCard">
       <div class="chartBox">
     <!--how to avoid-->
-    <center><h2 class="display-2">How to Avoid Monkey Pox</h2></center>
+    <center><h2 class="display-2">How to Avoid the Monkey Pox</h2></center>
     <ol class="list-group list-group-numbered">
-      <li class="list-group-item d-flex justify-content-between align-items-start">
+      <li class="list-group-item d-flex justify-content-between align-items-start list-group-item-danger">
         <div class="ms-2 me-auto">
           <div class="fw-bold">Avoid close, skin-to-skin contact with people who have a rash that looks like monkeypox.</div>
           <ul>
@@ -84,7 +81,7 @@
 </div>
     <!--google news-->
     <!--<rssapp-imageboard id="0xMmYwxZJHu6EvEx"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script>-->
-  
+
 
     <script src="https://unpkg.com/chart.js@3" charset="utf-8"></script>
     <script src="https://unpkg.com/chartjs-chart-geo@3" charset="utf-8"></script>
