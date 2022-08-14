@@ -26,7 +26,7 @@ We become more comfortable with using Bootstrap formats, along with extracting d
 
 • Included many interesting Bootstrap Framework
 
-• Grew accustomed to how each team members work and quickly familiarized ourselves with what our strengths and weaknesses are 
+• Grew accustomed to how each team members work and quickly familiarize ourselves with what our strengths and weaknesses are 
 
 • Converted CSV and JSON data
 
