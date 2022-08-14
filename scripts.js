@@ -81,9 +81,10 @@ console.log("hello");
             return{label, ycount};
             //returning an obj with x and y
             }
- chartIt();
+
+    chartItCovid();
         
-        async function chartIt() {
+        async function chartItCovid() {
             const data = await getData();
             const ctx = document.getElementById('chart').getContext('2d');
             const myChart = new Chart(ctx, {
@@ -105,8 +106,8 @@ console.log("hello");
 
 
 
-            getData();
-            async function getData() {
+            getcovidData();
+            async function getcovidData() {
                 const statelabel = [];
                 const totalcase = [];
                 const response = await fetch('covid.csv');
