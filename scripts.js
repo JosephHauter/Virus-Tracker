@@ -81,3 +81,48 @@ console.log("hello");
             return{label, ycount};
             //returning an obj with x and y
             }
+ chartIt();
+        
+        async function chartIt() {
+            const data = await getData();
+            const ctx = document.getElementById('chart').getContext('2d');
+            const myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: data.statelabel ,
+                    datasets: [
+                        {
+                        label: 'Total Covid Cases in the United States',
+                        data: data.totalcase,
+                        backgroundColor:'rgba(158, 42, 43)',
+                       
+                        borderWidth: 1
+                    }]
+                },
+                
+            });
+        }
+
+
+
+            getData();
+            async function getData() {
+                const statelabel = [];
+                const totalcase = [];
+                const response = await fetch('covid.csv');
+                const data = await response.text();
+            
+
+            const rows = data.split('\n').slice(1);
+            rows.forEach(elt => {
+                const columns = elt.split(",");
+                const state = columns[1];
+                statelabel.push(state);
+                const cases = columns[2];
+                totalcase.push(cases);
+                //parseFloat : turn str into #
+                console.log(state, cases);
+            });
+            return{statelabel, totalcase};
+            //returning an obj with x and y
+            }
